@@ -1,15 +1,14 @@
-# Twin Cities Animal Rescue , Touchstone 3
+# Twin Cities Animal Rescue
 
-This project continues the four-page HTML website from Touchstone Task 2. It adds one external, mobile-first CSS file, Flexbox layouts, and a 48rem media query. The four main interface colors are cream, green, charcoal, and gold; Arial is the font family. Provided photographs and the original logo keep their own colors.
+Touchstone 4 continues the same four page rescue website from Tasks 2 and 3. The public repository is https://github.com/djsanti88-sudo/Touchdown_3 and the published website is https://djsanti88-sudo.github.io/Touchdown_3/.
 
-## Open locally
-Extract the entire project and open index.html. Keep the four HTML pages, styles.css, and supplied media in the same folder. The form demonstrates browser validation and does not send inquiries. Impact numbers and office hours are clearly labeled sample class-project content.
+## Features
+On services.html, choose Volunteer, Foster, or Adoption information. JavaScript updates the guidance and saves the choice in localStorage. The contact form fills in that choice and saves its draft in sessionStorage for the current browser tab.
 
-## Publish for the assignment
-1. Use the public repository https://github.com/djsanti88-sudo/Touchdown_3.
-2. Upload every file in this folder to its root, including the actual media files. The MP4 is about 97 MB, so upload it using git rather than GitHub's browser file uploader.
-3. In GitHub Codespaces, run `python3 -m http.server 8000` in the repository root. Open the forwarded port in your browser and use the shareable public preview URL only if the course requests it. Codespaces links can stop working when the Codespace is stopped.
-4. For a persistent preview, enable GitHub Pages under Settings > Pages, deploying the main branch root.
-5. Put the REAL public repository URL and preview URL into the Word submission. Check them without signing in.
+The form checks required fields, email format, name length, and message length. Errors appear beside each field and focus moves to the first error. Valid input produces a confirmation. This class project does not send inquiries to a server. Clear my draft removes the draft and remembered interest. Forget my choice clears the remembered interest on the services page.
 
-Submit the completed Word template as the single Sophia upload. The code and CSS are in the linked repository; screenshots support the explanation and do not replace source files.
+## Files
+The project contains four HTML pages, styles.css, script.js, and the supplied photos, logo, audio, and video. The CSS retains the four color palette and mobile first Flexbox layout. Impact figures and office hours remain labeled sample content.
+
+## Preview in an IDE
+Open this repository in GitHub Codespaces and run `python3 -m http.server 8000` from the repository root. Open the forwarded port to preview it. GitHub Pages supplies the public preview when the Codespace is stopped.

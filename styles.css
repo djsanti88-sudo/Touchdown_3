@@ -72,3 +72,17 @@ footer p { margin: 0 auto; }
   .contact-columns > section:last-child { flex: 1 1 35%; padding: 1.5rem; border-top: 5px solid var(--gold); }
   .spotlight-figure { flex-direction: row; align-items: center; gap: 2rem; }
 }
+
+/* Task 4: selector, inline feedback, and saved draft controls. */
+.interest-planner { padding: 1.5rem; border: 1px solid var(--green); border-top: 5px solid var(--gold); border-radius: .6rem; }
+.interest-planner select { max-width: 32rem; }
+#interest-result { margin-top: 1.5rem; }
+#interest-result h3 { color: var(--green); margin: 0 0 .5rem; }
+#choice-status, #draft-status { font-size: .95rem; }
+.field-error { display: block; font-weight: 700; color: var(--charcoal); margin-top: .4rem; }
+.field-error:empty { display: none; }
+[aria-invalid="true"] { border: 3px solid var(--charcoal); }
+.form-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.secondary-button { color: var(--green); background: var(--cream); }
+.secondary-button:hover { color: var(--cream); }
+#form-status { margin-top: 1rem; font-weight: 700; }
